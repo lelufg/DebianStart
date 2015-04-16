@@ -26,18 +26,13 @@ sudo apt-get install synaptic vlc gimp gimp-data gimp-plugin-registry gimp-data-
 #post installation triggers
 sudo /usr/share/doc/libdvdread4/install-css.sh
 #personal
-sudo apt-get install unity-tweak-tool gnome-tweak-tool pidgin transmission tlp tlp-rdw icedtea-7-plugin openjdk-7-jre steam grub-customizer zsh caffeine smartgit smartgithg
+sudo apt-get install git unity-tweak-tool gnome-tweak-tool pidgin transmission tlp tlp-rdw icedtea-7-plugin openjdk-7-jre steam grub-customizer zsh caffeine smartgit smartgithg
 #compiz
 sudo apt-get install compiz compizconfig-settings-manager compiz-plugins
 #intel backlight fix
 #sudo apt-get install sysvinit-backlight
 #numix theme
 sudo apt-get install numix-gtk-theme numix-icon-theme numix-icon-theme-circle
-
-#extras
-sudo apt-get install git
-sudo apt-get install numix-gtk-theme numix-icon-theme numix-icon-theme-circle
-sudo apt-get install unity-tweak-tool gnome-tweak-tool pidgin transmission tlp tlp-rdw icedtea-7-plugin openjdk-7-jre steam grub-customizer zsh caffeine smartgit smartgithg
 
 # upgrade
 #sudo apt-get update
