@@ -32,6 +32,8 @@ rm -rf /usr/lib/firefox/
 rm -rf /usr/lib/firefox-addons/
 #Media
 sudo apt-get remove --purge totem totem-common empathy rhythmbox
+#Games
+sudo apt-get purge aisleriot gnome-sudoku mahjongg ace-of-penguins gnomine gbrainy
 
 # <END>
 clear
