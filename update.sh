@@ -7,6 +7,7 @@ sudo add-apt-repository -y ppa:videolan/stable-daily #VLC
 sudo add-apt-repository -y ppa:gnome3-team/gnome3 #Gnome Updates
 sudo add-apt-repository ppa:linrunner/tlp #Battery savings
 sudo add-apt-repository ppa:caffeine-developers/ppa #Caffeine
+sudo add-apt-repository ppa:webupd8team/atom #Atom Text Editor
 
 # <INDEX UPDATE>
 sudo apt-get update
@@ -18,9 +19,10 @@ sudo apt-get install pidgin skype #Social
 sudo apt-get install compiz compizconfig-settings-manager compiz-plugins #Desktop Effects
 sudo apt-get install tlp #Improve battery life
 sudo apt-get install zip unzip rar unrar #Utils
-sudo apt-get install build-essential git lzop #Dev Stuffs
+sudo apt-get install build-essential git lzop atom #Dev Stuffs
 sudo apt-get install bleachbit #CCleaner
 sudo apt-get install caffeine #Caffeine
+sudo apt-get install steam #Gaming client
 
 # <REMOVAL>
 #Firefox
