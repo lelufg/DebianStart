@@ -16,7 +16,6 @@ sudo apt-get update
 sudo apt-get install vlc audacious #Media
 sudo apt-get install ubuntu-restricted-extras #Wide playback support
 sudo apt-get install pidgin skype #Social
-sudo apt-get install compiz compizconfig-settings-manager compiz-plugins #Desktop Effects
 sudo apt-get install tlp #Improve battery life
 sudo apt-get install zip unzip rar unrar #Utils
 sudo apt-get install build-essential git lzop atom #Dev Stuffs
