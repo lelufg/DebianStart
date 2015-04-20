@@ -8,7 +8,6 @@ sudo add-apt-repository -y ppa:gnome3-team/gnome3 #Gnome Updates
 sudo add-apt-repository ppa:linrunner/tlp #Battery savings
 sudo add-apt-repository ppa:caffeine-developers/ppa #Caffeine
 sudo add-apt-repository ppa:webupd8team/atom #Atom Text Editor
-sudo add-apt-repository ppa:snwh/pulp #Paper MD Theme
 sudo add-apt-repository ppa:numix/ppa #Numix Theme
 
 # <INDEX UPDATE>
@@ -24,7 +23,7 @@ sudo apt-get install build-essential git lzop atom #Dev Stuffs
 sudo apt-get install bleachbit #CCleaner
 sudo apt-get install caffeine #Caffeine
 sudo apt-get install steam #Gaming client
-sudo apt-get install paper-gtk-theme numix-gtk-theme numix-icon-theme numix-icon-theme-circle #Themes and Icons
+sudo apt-get install numix-gtk-theme numix-icon-theme numix-icon-theme-circle #Numix Project
 
 # <REMOVAL>
 #Firefox
