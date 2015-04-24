@@ -30,7 +30,7 @@ sudo nano /etc/bumblebee/bumblebee.conf
 sudo service bumblebeed restart
 
 #<REMOVAL>
-rm -rf ~/Desktop/options.txt
+rm -rf ~/Desktop/nvoptions.txt
 
 # <END>
 clear
