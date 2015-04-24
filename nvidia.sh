@@ -13,7 +13,7 @@ sudo apt-get purge nvidia* bumblebee*
 
 # <INSTALL>
 sudo apt-get install bumblebee #Bumblebee 
-sudo apt-get install nvidia-331primus #Nvidia Drivers
+sudo apt-get install nvidia-331 primus #Nvidia Drivers
 
 # <EXTRA>
 #Config:
