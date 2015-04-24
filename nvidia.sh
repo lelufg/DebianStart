@@ -3,7 +3,7 @@ target=ubuntu_gnome_x64
 clear
 
 # <ADD REPOS>
-sudo add-apt-repository ppa:bumblebee/stable -y #Bubmblebee & Drivers
+sudo add-apt-repository ppa:bumblebee/stable -y
 
 # <INDEX UPDATE>
 sudo apt-get update
