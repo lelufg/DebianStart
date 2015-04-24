@@ -27,7 +27,7 @@ sudo apt-get install pidgin skype #Social
 sudo apt-get install tlp #Improve battery life
 sudo apt-get install zip unzip rar unrar #Utils
 sudo apt-get install build-essential git lzop atom #Dev Stuffs
-sudo apt-get install bleachbit #CCleaner
+#sudo apt-get install bleachbit #CCleaner
 sudo apt-get install caffeine #Caffeine
 sudo apt-get install steam #Gaming client
 sudo apt-get install numix-gtk-theme numix-icon-theme numix-icon-theme-circle #Numix Project
