@@ -8,12 +8,9 @@ sudo add-apt-repository ppa:bumblebee/stable -y #Bubmblebee & Drivers
 # <INDEX UPDATE>
 sudo apt-get update
 
-# <REMOVAL>
-sudo apt-get purge nvidia* bumblebee*
-
 # <INSTALL>
 sudo apt-get install bumblebee #Bumblebee 
-sudo apt-get install nvidia-331 primus #Nvidia Drivers
+sudo apt-get install nvidia-331 #Nvidia Drivers
 
 # <EXTRA>
 #Config:
