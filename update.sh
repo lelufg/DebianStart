@@ -9,6 +9,7 @@ sudo add-apt-repository ppa:linrunner/tlp #Battery savings
 sudo add-apt-repository ppa:caffeine-developers/ppa #Caffeine
 sudo add-apt-repository ppa:webupd8team/atom #Atom Text Editor
 sudo add-apt-repository ppa:numix/ppa #Numix Theme
+sudo add-apt-repository ppa:webupd8team/java #Java
 
 # <EXTRA REPOS>
 wget http://archive.getdeb.net/install_deb/getdeb-repository_0.1-1~getdeb1_all.deb http://archive.getdeb.net/install_deb/playdeb_0.3-1~getdeb1_all.deb
@@ -40,6 +41,7 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 rm -f google-chrome-stable_current_amd64.deb
 #Use the force luke!
 sudo apt-get -f install
+sudo apt-get install oracle-java7-installer #Java
 
 # <SETUP>
 #Bash Aliases
