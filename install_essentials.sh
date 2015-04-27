@@ -5,9 +5,7 @@ clear
 # <ADD REPOS>
 sudo add-apt-repository -y ppa:videolan/stable-daily #VLC
 sudo add-apt-repository -y ppa:gnome3-team/gnome3 #Gnome Updates
-sudo add-apt-repository ppa:linrunner/tlp #Battery savings
 sudo add-apt-repository ppa:caffeine-developers/ppa #Caffeine
-sudo add-apt-repository ppa:webupd8team/atom #Atom Text Editor
 sudo add-apt-repository ppa:numix/ppa #Numix Theme
 sudo add-apt-repository ppa:webupd8team/java #Java
 
@@ -25,10 +23,8 @@ sudo apt-get update
 sudo apt-get install vlc audacious #Media
 sudo apt-get install ubuntu-restricted-extras #Wide playback support
 sudo apt-get install pidgin skype #Social
-#sudo apt-get install tlp #Improve battery life
 sudo apt-get install zip unzip rar unrar #Utils
-sudo apt-get install build-essential git lzop atom #Dev Stuffs
-#sudo apt-get install bleachbit #CCleaner
+sudo apt-get install build-essential git lzop #Dev Stuffs
 sudo apt-get install caffeine #Caffeine
 sudo apt-get install steam #Gaming client
 sudo apt-get install numix-gtk-theme numix-icon-theme numix-icon-theme-circle #Numix Project
@@ -89,6 +85,8 @@ rm -rf /usr/lib/firefox-addons/
 sudo apt-get remove --purge totem totem-common empathy rhythmbox
 #Games
 sudo apt-get purge aisleriot gnome-sudoku mahjongg ace-of-penguins gnomine gbrainy gnome-mahjongg gnome-mines
+#Amazon
+sudo apt-get remove --purge unity-webapps-*
 
 # <UPDATE & CLEANUP>
 updateme && cleanmeup
