@@ -48,26 +48,36 @@ echo "# User defined aliases
 function updateme(){
 clear
 sleep 3
-echo "Updating..."
+echo Updating...
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get dist-upgrade
 sleep 3
 clear
-echo "Update complete!"
+echo Update complete!
 }
 
 function cleanmeup(){
 clear
 sleep 3
-echo "Cleaning up..."
+echo Cleaning up...
 sudo apt-get -f install
 sudo apt-get autoremove
 sudo apt-get -y autoclean
 sudo apt-get -y clean
 sleep 3
 clear
-echo "Cleaned up!"
+echo Cleaned up!
+}
+
+function boost(){
+clear
+sleep 3
+echo Boosting...
+free -m | sed -n -e '3p' | grep -Po "\d+$"
+sync && echo 3 | sudo tee /proc/sys/vm/drop_caches
+free -m | sed -n -e '3p' | grep -Po "\d+$"
+echo Boosted!
 }" >> ~/.bash_aliases
 
 #Reload Bash
