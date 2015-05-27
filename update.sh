@@ -102,7 +102,7 @@ wget http://77.244.44.75/debian/dists/testing/main/binary-amd64/linux-headers-4.
 sudo dpkg -i *.deb
 rm -f linux*.deb
 #For hibernation to work
-#apt-get -y install tuxonice-userui
+sudo apt-get -y install tuxonice-userui
 
 # <UPDATE & CLEANUP>
 updateme && cleanmeup
