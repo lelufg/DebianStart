@@ -7,6 +7,7 @@ sudo add-apt-repository -y ppa:videolan/stable-daily #VLC
 sudo add-apt-repository -y ppa:gnome3-team/gnome3 #Gnome Updates
 sudo add-apt-repository -y ppa:numix/ppa #Numix Theme
 sudo add-apt-repository -y ppa:webupd8team/java #Java
+sudo add-apt-repository ppa:webupd8team/popcorntime #Popcorn Time
 
 # <EXTRA REPOS>
 wget http://archive.getdeb.net/install_deb/getdeb-repository_0.1-1~getdeb1_all.deb http://archive.getdeb.net/install_deb/playdeb_0.3-1~getdeb1_all.deb
@@ -19,7 +20,7 @@ rm -f playdeb_0.3-1~getdeb1_all.deb
 sudo apt-get -y update
 
 # <INSTALL>
-sudo apt-get -y install vlc audacious #Media
+sudo apt-get -y install vlc audacious popcorn-time #Media
 sudo apt-get -y install ubuntu-restricted-extras #Wide playback support
 sudo apt-get -y install pidgin #Social
 sudo apt-get -y install zip unzip rar unrar #Utils
@@ -90,9 +91,9 @@ rm -rf /etc/firefox/
 rm -rf /usr/lib/firefox/
 rm -rf /usr/lib/firefox-addons/
 #Media
-sudo apt-get remove --purge totem totem-common empathy rhythmbox
+sudo apt-get -y remove --purge totem totem-common empathy rhythmbox
 #Games
-sudo apt-get purge aisleriot gnome-sudoku mahjongg ace-of-penguins gnomine gbrainy gnome-mahjongg gnome-mines
+sudo apt-get -y purge aisleriot gnome-sudoku mahjongg ace-of-penguins gnomine gbrainy gnome-mahjongg gnome-mines
 
 # <KERNEL>
 #PF Kernel - 3.19 but very snappy
