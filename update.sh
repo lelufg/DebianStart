@@ -94,8 +94,15 @@ rm -rf /usr/lib/firefox-addons/
 sudo apt-get remove --purge totem totem-common empathy rhythmbox
 #Games
 sudo apt-get purge aisleriot gnome-sudoku mahjongg ace-of-penguins gnomine gbrainy gnome-mahjongg gnome-mines
-#Amazon
-sudo apt-get remove --purge unity-webapps-*
+
+# <KERNEL>
+#PF Kernel - 3.19 but very snappy
+wget http://77.244.44.75/debian/dists/testing/main/binary-amd64/linux-image-3.19.0-pf3_0_amd64.deb
+wget http://77.244.44.75/debian/dists/testing/main/binary-amd64/linux-headers-3.19.0-pf3_0_amd64.deb
+sudo dpkg -i linux*.deb
+rm -f linux*.deb
+#For hibernation to work
+apt-get install tuxonice-userui
 
 # <UPDATE & CLEANUP>
 updateme && cleanmeup
