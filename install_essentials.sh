@@ -1,11 +1,10 @@
 # <INIT>
-target=ubuntu_x64
+target=ubuntu_gnome_x64
 clear
 
 # <ADD REPOS>
 sudo add-apt-repository -y ppa:videolan/stable-daily #VLC
 sudo add-apt-repository -y ppa:gnome3-team/gnome3 #Gnome Updates
-sudo add-apt-repository ppa:caffeine-developers/ppa #Caffeine
 sudo add-apt-repository ppa:numix/ppa #Numix Theme
 sudo add-apt-repository ppa:webupd8team/java #Java
 
@@ -25,7 +24,6 @@ sudo apt-get install ubuntu-restricted-extras #Wide playback support
 sudo apt-get install pidgin skype #Social
 sudo apt-get install zip unzip rar unrar #Utils
 sudo apt-get install build-essential git lzop #Dev Stuffs
-sudo apt-get install caffeine #Caffeine
 sudo apt-get install steam #Gaming client
 sudo apt-get install numix-gtk-theme numix-icon-theme numix-icon-theme-circle #Numix Project
 sudo apt-get install unity-tweak-tool #GTK Control
@@ -37,9 +35,10 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 rm -f google-chrome-stable_current_amd64.deb
 #Use the force luke!
 sudo apt-get -f install
-sudo apt-get install oracle-java7-installer #Java
+#Java
+sudo apt-get install oracle-java7-installer
 
-# <SETUP>
+# <CONFIG>
 #Bash Aliases
 echo "# User defined aliases
 #alias #template='#template'
