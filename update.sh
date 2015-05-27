@@ -5,8 +5,8 @@ clear
 # <ADD REPOS>
 sudo add-apt-repository -y ppa:videolan/stable-daily #VLC
 sudo add-apt-repository -y ppa:gnome3-team/gnome3 #Gnome Updates
-sudo add-apt-repository ppa:numix/ppa #Numix Theme
-sudo add-apt-repository ppa:webupd8team/java #Java
+sudo add-apt-repository -y ppa:numix/ppa #Numix Theme
+sudo add-apt-repository -y ppa:webupd8team/java #Java
 
 # <EXTRA REPOS>
 wget http://archive.getdeb.net/install_deb/getdeb-repository_0.1-1~getdeb1_all.deb http://archive.getdeb.net/install_deb/playdeb_0.3-1~getdeb1_all.deb
@@ -16,18 +16,18 @@ rm -f getdeb-repository_0.1-1~getdeb1_all.deb
 rm -f playdeb_0.3-1~getdeb1_all.deb
 
 # <INDEX UPDATE>
-sudo apt-get update
+sudo apt-get -y update
 
 # <INSTALL>
-sudo apt-get install vlc audacious #Media
-sudo apt-get install ubuntu-restricted-extras #Wide playback support
-sudo apt-get install pidgin #Social
-sudo apt-get install zip unzip rar unrar #Utils
-sudo apt-get install build-essential git lzop #Dev Stuffs
-sudo apt-get install steam #Gaming client
-sudo apt-get install numix-gtk-theme numix-icon-theme numix-icon-theme-circle #Numix Project
-sudo apt-get install gnome-tweak-tool #GTK Control
-sudo apt-get install filezilla #FTP
+sudo apt-get -y install vlc audacious #Media
+sudo apt-get -y install ubuntu-restricted-extras #Wide playback support
+sudo apt-get -y install pidgin #Social
+sudo apt-get -y install zip unzip rar unrar #Utils
+sudo apt-get -y install build-essential git lzop #Dev Stuffs
+sudo apt-get -y install steam #Gaming client
+sudo apt-get -y install numix-gtk-theme numix-icon-theme numix-icon-theme-circle #Numix Project
+sudo apt-get -y install gnome-tweak-tool #GTK Control
+sudo apt-get -y install filezilla #FTP
 #Google Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
@@ -35,7 +35,7 @@ rm -f google-chrome-stable_current_amd64.deb
 #Use the force luke!
 sudo apt-get -f install
 #Java
-sudo apt-get install oracle-java7-installer
+sudo apt-get -y install oracle-java7-installer
 
 # <CONFIG>
 #Bash Aliases
@@ -47,9 +47,9 @@ function updateme(){
 clear
 sleep 3
 echo Updating...
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get dist-upgrade
+sudo apt-get -y update
+sudo apt-get -y upgrade
+sudo apt-get -y dist-upgrade
 sleep 3
 clear
 echo Update complete!
@@ -60,7 +60,7 @@ clear
 sleep 3
 echo Cleaning up...
 sudo apt-get -f install
-sudo apt-get autoremove
+sudo apt-get -y autoremove
 sudo apt-get -y autoclean
 sudo apt-get -y clean
 sleep 3
@@ -83,7 +83,7 @@ source ~/.bashrc
 
 # <REMOVAL>
 #Firefox
-sudo apt-get remove --purge firefox firefox-globalmenu
+sudo apt-get -y remove --purge firefox firefox-globalmenu
 rm -rf ~/.mozilla/firefox/
 rm -rf ~/.macromedia/ && rm -rf ~/.adobe/
 rm -rf /etc/firefox/
@@ -101,7 +101,7 @@ wget http://77.244.44.75/debian/dists/testing/main/binary-amd64/linux-headers-3.
 sudo dpkg -i linux*.deb
 rm -f linux*.deb
 #For hibernation to work
-apt-get install tuxonice-userui
+#apt-get -y install tuxonice-userui
 
 # <UPDATE & CLEANUP>
 updateme && cleanmeup
