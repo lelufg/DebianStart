@@ -21,13 +21,12 @@ sudo apt-get update
 # <INSTALL>
 sudo apt-get install vlc audacious #Media
 sudo apt-get install ubuntu-restricted-extras #Wide playback support
-sudo apt-get install pidgin skype #Social
+sudo apt-get install pidgin #Social
 sudo apt-get install zip unzip rar unrar #Utils
 sudo apt-get install build-essential git lzop #Dev Stuffs
 sudo apt-get install steam #Gaming client
 sudo apt-get install numix-gtk-theme numix-icon-theme numix-icon-theme-circle #Numix Project
-sudo apt-get install unity-tweak-tool #GTK Control
-sudo apt-get install compiz compiz-plugins compizconfig-settings-manager #Compiz
+sudo apt-get install gnome-tweak-tool #GTK Control
 sudo apt-get install filezilla #FTP
 #Google Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
