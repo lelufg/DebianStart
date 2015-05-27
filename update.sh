@@ -96,10 +96,10 @@ sudo apt-get -y remove --purge totem totem-common empathy rhythmbox
 sudo apt-get -y purge aisleriot gnome-sudoku mahjongg ace-of-penguins gnomine gbrainy gnome-mahjongg gnome-mines
 
 # <KERNEL>
-#PF Kernel - 3.19 but very snappy
-wget http://77.244.44.75/debian/dists/testing/main/binary-amd64/linux-image-3.19.0-pf3_0_amd64.deb
-wget http://77.244.44.75/debian/dists/testing/main/binary-amd64/linux-headers-3.19.0-pf3_0_amd64.deb
-sudo dpkg -i linux*.deb
+#PF Kernel
+wget http://77.244.44.75/debian/dists/testing/main/binary-amd64/linux-image-4.0.0-pf2_0_amd64.deb
+wget http://77.244.44.75/debian/dists/testing/main/binary-amd64/linux-headers-4.0.0-pf2_0_amd64.deb
+sudo dpkg -i *.deb
 rm -f linux*.deb
 #For hibernation to work
 #apt-get -y install tuxonice-userui
