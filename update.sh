@@ -8,6 +8,7 @@ sudo add-apt-repository -y ppa:gnome3-team/gnome3 #Gnome Updates
 sudo add-apt-repository -y ppa:numix/ppa #Numix Theme
 sudo add-apt-repository -y ppa:webupd8team/java #Java
 sudo add-apt-repository ppa:webupd8team/popcorntime #Popcorn Time
+sudo add-apt-repository ppa:webupd8team/atom #Text Editor
 
 # <EXTRA REPOS>
 wget http://archive.getdeb.net/install_deb/getdeb-repository_0.1-1~getdeb1_all.deb http://archive.getdeb.net/install_deb/playdeb_0.3-1~getdeb1_all.deb
@@ -28,7 +29,7 @@ sudo apt-get -y install build-essential git lzop #Dev Stuffs
 sudo apt-get -y install steam #Gaming client
 sudo apt-get -y install numix-gtk-theme numix-icon-theme numix-icon-theme-circle #Numix Project
 sudo apt-get -y install gnome-tweak-tool #GTK Control
-sudo apt-get -y install filezilla #FTP
+sudo apt-get install atom #Text Editor
 #Google Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
