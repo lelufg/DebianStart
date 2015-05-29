@@ -26,7 +26,7 @@ sudo apt-get -y install vlc audacious popcorn-time #Media
 sudo apt-get -y install ubuntu-restricted-extras #Wide playback support
 sudo apt-get -y install pidgin #Social
 sudo apt-get -y install zip unzip rar unrar #Utils
-sudo apt-get -y install build-essential git lzop #Dev Stuffs
+sudo apt-get -y install build-essential git lzop valgrind #Dev Stuffs
 sudo apt-get -y install steam #Gaming client
 sudo apt-get -y install numix-gtk-theme numix-icon-theme numix-icon-theme-circle #Numix Project
 sudo apt-get -y install unity-tweak-tool #GTK Control
