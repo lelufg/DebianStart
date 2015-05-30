@@ -7,9 +7,9 @@ sudo add-apt-repository -y ppa:videolan/stable-daily #VLC
 sudo add-apt-repository -y ppa:gnome3-team/gnome3 #Gnome Updates
 sudo add-apt-repository -y ppa:numix/ppa #Numix Theme
 sudo add-apt-repository -y ppa:webupd8team/java #Java
-sudo add-apt-repository ppa:webupd8team/popcorntime #Popcorn Time
-sudo add-apt-repository ppa:webupd8team/atom #Text Editor
-sudo add-apt-repository ppa:caffeine-developers/ppa # Caffeine
+sudo add-apt-repository -y ppa:webupd8team/popcorntime #Popcorn Time
+sudo add-apt-repository -y ppa:webupd8team/atom #Text Editor
+sudo add-apt-repository -y ppa:caffeine-developers/ppa # Caffeine
 
 # <EXTRA REPOS>
 wget http://archive.getdeb.net/install_deb/getdeb-repository_0.1-1~getdeb1_all.deb http://archive.getdeb.net/install_deb/playdeb_0.3-1~getdeb1_all.deb
