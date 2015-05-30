@@ -81,6 +81,13 @@ free -m | sed -n -e '3p' | grep -Po "\d+$"
 sync && echo 3 | sudo tee /proc/sys/vm/drop_caches
 free -m | sed -n -e '3p' | grep -Po "\d+$"
 echo Boosted!
+}
+
+function imgur() {
+    for i in "$@"; do
+        curl -# -F "image"=@"$i" -F "key"="4907fcd89e761c6b07eeb8292d5a9b2a" imgur.com/api/upload.xml|\
+        grep -Eo '<[a-z_]+>http[^<]+'|sed 's/^<.\|_./\U&/g;s/_/ /;s/<\(.*\)>/\x1B[0;34m\1:\x1B[0m /'
+    done
 }" >> ~/.bash_aliases
 
 #Reload Bash
