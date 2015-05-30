@@ -1,5 +1,5 @@
 # <INIT>
-target=ubuntu_gnome_x64
+target=ubuntu_unity_x64
 clear
 
 # <ADD REPOS>
