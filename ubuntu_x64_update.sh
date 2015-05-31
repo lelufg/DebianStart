@@ -34,6 +34,10 @@ sudo apt-get -y install unity-tweak-tool #GTK Control
 sudo apt-get -y install compiz compiz-plugins compizconfig-settings-manager #Compiz
 sudo apt-get -y install libappindicator3-1 gir1.2-appindicator3-0.1 #Dependancies
 sudo apt-get -y install atom #Text Editor
+#Skype
+wget http://download.skype.com/linux/skype-ubuntu-precise_4.3.0.37-1_i386.deb
+sudo dpkg -i skype-ubuntu-precise_4.3.0.37-1_i386.deb
+rm -f skype-ubuntu-precise_4.3.0.37-1_i386.deb
 #Google Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
