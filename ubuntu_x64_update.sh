@@ -10,6 +10,7 @@ sudo add-apt-repository -y ppa:webupd8team/java #Java
 sudo add-apt-repository -y ppa:webupd8team/popcorntime #Popcorn Time
 sudo add-apt-repository -y ppa:webupd8team/atom #Text Editor
 sudo add-apt-repository -y ppa:caffeine-developers/ppa # Caffeine
+sudo add-apt-repository ppa:atareao/atareao #Touchpad Indicator
 
 # <EXTRA REPOS>
 wget http://archive.getdeb.net/install_deb/getdeb-repository_0.1-1~getdeb1_all.deb http://archive.getdeb.net/install_deb/playdeb_0.3-1~getdeb1_all.deb
@@ -32,7 +33,7 @@ sudo apt-get -y install numix-gtk-theme numix-icon-theme numix-icon-theme-circle
 sudo apt-get -y install unity-tweak-tool #GTK Control
 sudo apt-get -y install compiz compiz-plugins compizconfig-settings-manager #Compiz
 sudo apt-get -y install libappindicator3-1 gir1.2-appindicator3-0.1 #Dependancies
-sudo apt-get -y install atom caffeine #Text Editor
+sudo apt-get -y install atom #Text Editor
 #Google Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
@@ -41,6 +42,8 @@ rm -f google-chrome-stable_current_amd64.deb
 sudo apt-get -f install
 #Java
 sudo apt-get -y install oracle-java7-installer
+# Indicators
+sudo apt-get -y install touchpad-indicator caffeine indicator-cpufreq
 
 # <CONFIG>
 #Bash Aliases
