@@ -92,6 +92,14 @@ function imgur() {
 
 function screenshot() {
 gnome-screenshot -d 10
+}
+
+function pf-update(){
+cd ~/Downloads/
+wget http://77.244.44.75/debian/dists/testing/main/binary-amd64/linux-image-4.0.0-pf2_0_amd64.deb
+wget http://77.244.44.75/debian/dists/testing/main/binary-amd64/linux-headers-4.0.0-pf2_0_amd64.deb
+sudo dpkg -i *.deb
+echo Done!
 }" >> ~/.bash_aliases
 
 #Reload Bash
