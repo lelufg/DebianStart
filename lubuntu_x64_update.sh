@@ -4,7 +4,6 @@ clear
 
 # <ADD REPOS>
 sudo add-apt-repository -y ppa:videolan/stable-daily #VLC
-sudo add-apt-repository -y ppa:webupd8team/java #Java
 sudo add-apt-repository -y ppa:webupd8team/popcorntime #Popcorn Time
 sudo add-apt-repository -y ppa:webupd8team/atom #Text Editor
 sudo add-apt-repository -y ppa:caffeine-developers/ppa # Caffeine
@@ -31,8 +30,6 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 rm -f google-chrome-stable_current_amd64.deb
 #Use the force luke!
 sudo apt-get -f install
-#Java
-sudo apt-get -y install oracle-java7-installer
 
 # <CONFIG>
 #Bash Aliases
