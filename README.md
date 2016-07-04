@@ -1,2 +1,2 @@
 # Ubuntu-Scripts
-Scripts for Ubuntu user environment init
+Must-have tweaks and softwares script for Ubuntu and it's derivates.
