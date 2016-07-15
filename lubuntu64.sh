@@ -1,3 +1,5 @@
+# This script works better on Lubuntu x64 arch. 
+# Contributor: @luca020400
 # <INIT>
 target=lubuntu_x64
 clear
