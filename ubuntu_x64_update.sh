@@ -1,3 +1,5 @@
+# This script works better on Ubuntu x64 arch.
+# Contributor: @DiamondBond
 # <INIT>
 target=ubuntu_unity_x64
 clear
