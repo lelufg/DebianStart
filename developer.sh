@@ -1,3 +1,5 @@
+# This script is recommended for Developers. It's a developer tools starter pack.
+# Contributor: @DiamondBond
 # <INIT>
 target=ubuntu_generic_x64
 clear
