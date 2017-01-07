@@ -1,8 +1,13 @@
 # This script is recommended for Developers. It's a developer tools starter pack.
-# Contributor: @DiamondBond
+# Contributor: @DiamondBond @vaporwavie
 # <INIT>
 target=ubuntu_generic_x64
 clear
+
+# <REFRESH EVERYTHING>
+echo "Welcome to developers pack. Lets keep everything fresh!"
+sleep 2
+sudo apt update && sudo apt -y upgrade && sudo apt -y dist-upgrade && sudo apt-get -y autoremove && sudo apt-get autoclean
 
 # <ADD REPOS>
 sudo add-apt-repository -y ppa:webupd8team/java
@@ -21,5 +26,5 @@ mkdir ~/bin && curl http://commondatastorage.googleapis.com/git-repo-downloads/r
 echo "export PATH=~/bin:$PATH" >> ~/.bashrc
 source ~/.bashrc
 
-echo "done!"
+echo "Done! Thanks for using DebianStart. Hope you enjoyed it :)"
 sleep 1;
