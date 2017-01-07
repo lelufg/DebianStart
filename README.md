@@ -1,5 +1,5 @@
 # Debian Start
-In this repository, you will be able to install must-have tweaks and softwares script for Debian based distributions in one single command.
+Ever wondered any way to install a bunch of packages of your Debian based distro without adding them manually? This script does exactly all this!
 
 # Contact
 luizaugusto@linuxmail.org
